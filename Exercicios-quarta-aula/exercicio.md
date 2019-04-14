@@ -45,7 +45,7 @@ O vencedor será decidido baseado nas combinações abaixo:
 3. Javascript do jogo
 4. CSS do jogo
 
-5. Pedir para o jogador inserir o nome dele antes de começar e mostrar o nome dele no final do jogo
+5. Bônus: Pedir para o jogador inserir o nome dele antes de começar e mostrar o nome dele no final do jogo
 6. Bônus: Adicionar as regras do jogo e referências na página.
 
 ***

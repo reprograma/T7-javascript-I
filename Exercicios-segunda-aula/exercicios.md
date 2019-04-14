@@ -1,11 +1,22 @@
-// Escreva uma condicional que mostra se uma pessoa pode ou não atravessar a rua, e se um carro pode ou não cruzar a rua.
+### Sessão da tarde
 
-// Escreva uma função que conte quantas palavras tem uma frase. (primeiro verifique se é uma string)
+Sabe quando bate aquela vontade de ver um filme mas você não tem ideia do que assistir?
+Para ajudar naqueles momentos de indecisão vamos montar uma lista de filmes. Podemos acessar essa lista de duas formas: randomicamente ou lista completa.
 
+***
 
-// Number 1: Show user IP address with JavaScript
+#### O que deve ser feito?
 
+* Sugestão randômica de uma lista de filmes (ou músicas, seriados, receitas, jogos de videogame, raças de gato/cachorro)
+* É necessário mostrar:
+  - Nome do filme
+  - Categoria (gênero)
+  - URL (Por exemplo: se for filmes, mostrar a url do IMDB, Rotten Tomatoes ou Filmow)
+  - Imagem do filme
+- Mínimo 10, máximo 20 sugestões
 
-https://exercism.io/tracks/javascript/exercises/bob/solutions/1e707f705dfd419abe54b0e12aa119d4
+* Bônus: Botão para o usuário poder mostrar a lista completa de filmes
 
-https://exercism.io/tracks/javascript/exercises/reverse-string/solutions/593ebefc58804647ba3211f134521079
+***
+
+Referência: https://ptonella.github.io/reprograma/sessao-da-tarde/

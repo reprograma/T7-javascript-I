@@ -25,28 +25,29 @@
     - [getElementsByTagName()](#getelementsbytagname)
     - [querySelector()](#queryselector)
     - [querySelectorAll()](#queryselectorall)
-  * [console.log() e alert()](#consolelog-e-alert)
+    - [addEventListener()](#addeventlistenerclick)
+      - [click](#click)
+      - [mouseover](#mouseover)
+      - [change](#change)
+    - [innerHTML](#innerHTML)
   * [if/else if/else](#ifelse-ifelse)
+  * [console.log() e alert()](#consolelog-e-alert)
   * [Exercícios](#)
 
 ***
 
 * [Segunda aula (16/04)](#segunda-aula---1604)
-  * [Switch case](#switch-case)
-  * [Do while](#do-while)
-  * [For](#for)
-  * [addEventListener()](#addeventlistenerclick)
-    - [click](#click)
-    - [mouseover](#mouseover)
-  * [removeEventListener()](#removeeventlistener)
+  * [Funções](#funções)
+  * [Arrays](#arrays)
+  * [Objetos](#objetos)
   * [Exercícios](#exercícios-1)
 
 ***
 
 * [Terceira aula (17/04)](#terceira-aula---1704)
-  * [Arrays](#arrays)
-  * [Objetos](#objetos)
-  * [Funções](#funções)
+  * [Switch case](#switch-case)
+  * [Do while](#do-while)
+  * [For](#for)
   * [Exercícios](#exercícios-2)
 
 ***
@@ -229,7 +230,7 @@ Esse método retorna o elemento que estiver contendo o nome do ID passado. Como 
 ```
 
 ```js
-let getInputId = document.getElementsById('textInput');
+let getInputId = document.getElementById('textInput');
 ```
 
 #### getElementsByClassName()
@@ -289,12 +290,12 @@ let getInputClass = document.querySelector('text-input');
 #### console.log() e alert()
 
 ```js
-let getInputId = document.getElementsById('textInput');
+let getInputId = document.getElementById('textInput');
 console.log(getInputId)
 ```
 
 ```js
-let getInputId = document.getElementsById('textInput');
+let getInputId = document.getElementById('textInput');
 alert(getInputId)
 ```
 
