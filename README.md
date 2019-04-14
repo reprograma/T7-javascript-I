@@ -59,11 +59,6 @@
 
 ### Primeira aula - 15/04
 
-
-#### Mundo real e mundo Javascript
-(exemplo do semáforo de trânsito)
-
-
 #### Variáveis
 No computador, uma variável é um espaço de memória que vai ser preenchido por algum valor variável. Na maioria dos casos, o valor variável vai ser definido pelo usuário.
 

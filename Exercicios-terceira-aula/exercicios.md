@@ -1,7 +1,18 @@
+### Calculadora dos boletos do mês
 
-```
-Crie uma função que vai ser chamada dentro de outra função
-```
+Uma calculadora pra ajudar a sobrar salário no final do mês, e não mês no final do salário.
+
 ***
 
-### Calculadora do dinheiro do mês
+#### O que deve ser feito?
+
+* Mostrar um campo para a entrada de salário do mês
+* Mosrar um campo para a saída de dinheiro do mês
+* Mostrar o valor total de entrada
+* Mostrar o valor total de saída
+* Mostrar o saldo do mês em azul se positivo, e vermelho se negativo. Se for 0, também mostrar em azul.
+
+
+***
+
+Referência: https://ptonella.github.io/reprograma/boletos/

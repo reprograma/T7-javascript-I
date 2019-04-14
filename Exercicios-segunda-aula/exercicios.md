@@ -1,22 +1,70 @@
-### Sessão da tarde
+## Pedra, papel, tesoura, lagarto e spock 👊🏻 🗒 ✂ 🦎 🖖🏻
 
-Sabe quando bate aquela vontade de ver um filme mas você não tem ideia do que assistir?
-Para ajudar naqueles momentos de indecisão vamos montar uma lista de filmes. Podemos acessar essa lista de duas formas: randomicamente ou lista completa.
+```
+Esse é um jogo adaptado do clássico pedra, papel e tesoura.
+Spock e lagarto foram adicionados para diminuir as chances de empate, e também são referências ao clássico
+seriado americano Star Trek.
+```
+
+- [Referência 1](http://www.samkass.com/theories/RPSSL.html)
+- [Referência 2](https://www.youtube.com/watch?v=GIlmJqc9gaI)
+
+***
+
+#### Regras do jogo:
+
+
+- É um jogo para dois jogadores
+- Antes de jogar cada jogador deve escolher uma das seguintes opções (sem verbalizar a escolha):
+  - pedra = 👊🏻
+  - papel = 🗒
+  - tesoura = ✂
+  - lagarto = 🦎
+  - spock = 🖖🏻
+
+O vencedor será decidido baseado nas combinações abaixo:
+
+- ✂ corta 🗒 (✂ vence)
+- 🗒 cobre 👊🏻 (🗒 vence)
+- 👊🏻 esmaga 🦎 (👊🏻 vence)
+- 🦎 envenena 🖖🏻 (🦎 vence)
+- 🖖🏻 quebra ✂ (🖖🏻 vence)
+- ✂ decapita 🦎 (✂ vence)
+- 🦎 come 🗒  (🦎  vence)
+- 🗒 desqualifica 🖖🏻 (🗒  vence)
+- 🖖🏻 vaporiza 👊🏻 (🖖🏻 vence)
+- 👊🏻 esmaga ✂ (👊🏻 vence)
+- 🖖🏻 🖖🏻 (empate, jogar novamente)
 
 ***
 
 #### O que deve ser feito?
 
-* Sugestão randômica de uma lista de filmes (ou músicas, seriados, receitas, jogos de videogame, raças de gato/cachorro)
-* É necessário mostrar:
-  - Nome do filme
-  - Categoria (gênero)
-  - URL (Por exemplo: se for filmes, mostrar a url do IMDB, Rotten Tomatoes ou Filmow)
-  - Imagem do filme
-- Mínimo 10, máximo 20 sugestões
+1. **Desenhar o esboço do projeto no papel (tanto estrutura (HTML) quanto lógica)**
+2. HTML do jogo
+3. Javascript do jogo
+4. CSS do jogo
 
-* Bônus: Botão para o usuário poder mostrar a lista completa de filmes
+5. Bônus: Pedir para o jogador inserir o nome dele antes de começar e mostrar o nome dele no final do jogo
+6. Bônus: Adicionar as regras do jogo e referências na página.
 
 ***
 
-Referência: https://ptonella.github.io/reprograma/sessao-da-tarde/
+#### Como o jogo deve funcionar?
+
+O jogo vai ser um jogador x computador.
+O jogador escolhe uma das opções e o computador vai escolher uma opção aleatória.
+
+Apresentar resultado na tela:
+
+```
+Ganhador = Jogador (escolha do ganhador)
+Perdedor = Jogador (escolha do perdedor)
+Resultado = Tesoura corta papel
+
+O {nome_vencedor} ganhou e {nome_perdedor} perdeu!
+{tesoura corta papel}
+
+
+Em caso de empate mostrar na tela: Empate! Jogue novamente
+```
