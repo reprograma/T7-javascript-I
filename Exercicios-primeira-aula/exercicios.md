@@ -1,10 +1,10 @@
-* Receba um número e verifique se ele é positivo, negativo ou zero. Se ele não for número, mostre uma mensagem na tela solicitando que o usuário digite um número.
+* Receba um número, verifique se ele é positivo, negativo ou zero e mostre o resultado na tela. Se o valor não for numérico, mostre um alerta na tela solicitando que o usuário digite um número.
 
-* Faça a soma de duas variáveis. Primeiro verifique se os dois valores são números. Se forem números, faça a soma. Senão mostre uma mensagem avisando que não são números.
+* Faça a soma de duas variáveis na tela. Primeiro verifique se os dois valores são números. Se forem números, faça a soma. Senão mostre um alerta avisando que os valores não são números.
 
-* Receba 3 números e mostre qual deles é o maior. Primeiro verifique se os valores são números. Senão forem, mostre uma mensagem avisando que não são números.
+* Receba 3 números e mostre na tela qual deles é o maior. Primeiro verifique se os valores são números. Senão forem, mostre um alerta avisando que não são números.
 
-* Receba uma palavra e escreva ao contrário. Se não for uma string, mostre uma mensagem na tela solicitando que o usuário digite uma palavra.
+* Receba uma palavra e escreva ao contrário na tela. Se não for uma string, mostre uma mensagem na tela solicitando que o usuário digite uma palavra.
 
 
 ***

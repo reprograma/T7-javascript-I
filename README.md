@@ -21,10 +21,7 @@
   * [Manipulação do DOM](#manipulação-do-dom)
     - [DOM](#dom)
     - [getElementById()](#getelementbyid)
-    - [getElementsByClassName()](#getelementsbyclassname)
-    - [getElementsByTagName()](#getelementsbytagname)
     - [querySelector()](#queryselector)
-    - [querySelectorAll()](#queryselectorall)
     - [addEventListener()](#addeventlistenerclick)
       - [click](#click)
       - [mouseover](#mouseover)
@@ -32,20 +29,21 @@
     - [innerHTML](#innerHTML)
   * [if/else if/else](#ifelse-ifelse)
   * [console.log() e alert()](#consolelog-e-alert)
+  * [Concatenação de variáveis](#concatenacao-de-variáveis)
   * [Exercícios](https://github.com/reprograma/T7-javascript-I/blob/master/Exercicios-primeira-aula/exercicios.md)
 
 ***
 
 * [Segunda aula (16/04)](#segunda-aula---1604)
+  * [Switch case](#switch-case)
   * [Funções](#funções)
   * [Arrays](#arrays)
-  * [Objetos](#objetos)
   * [Exercícios](https://github.com/reprograma/T7-javascript-I/blob/master/Exercicios-segunda-aula/exercicios.md)
 
 ***
 
 * [Terceira aula (17/04)](#terceira-aula---1704)
-  * [Switch case](#switch-case)
+  * [Objetos](#objetos)
   * [Do while](#do-while)
   * [For](#for)
   * [Exercícios](https://github.com/reprograma/T7-javascript-I/blob/master/Exercicios-terceira-aula/exercicios.md)
@@ -327,33 +325,8 @@ Esse método retorna o elemento que estiver contendo o nome do ID passado. Como 
 let getInputId = document.getElementById('textInput');
 ```
 
-#### getElementsByClassName()
-
-```html
-<div>
-  <input type="text" id="textInput" class="text-input"  />
-</div>
-```
-
-```js
-let getInputClass = document.getElementsByClassName('text-input');
-```
-
-
-#### getElementsByTagName()
-
-```html
-<div>
-  <input type="text" id="textInput" class="text-input" />
-</div>
-```
-
-```js
-let getInputTag = document.getElementsByTagName('input');
-```
-
-
 #### querySelector()
+
 ```html
 <div>
   <input type="text" id="textInput" class="text-input" />
@@ -361,23 +334,87 @@ let getInputTag = document.getElementsByTagName('input');
 ```
 
 ```js
-let getInputId = document.querySelector('textInput');
-let getInputTag = document.querySelector('input');
-let getInputClass = document.querySelector('text-input');
+let getInputId = document.querySelector('#textInput');
+```
+
+#### innerHTML
+
+```html
+  <div id="displayText"></div>
+```
+
+```js
+let displayText = document.querySelector('#displayText');
+displayText.innerHTML = "Texto que eu inseri no HTML."
+
 ```
 
 
-#### querySelectorAll()
+#### addEventListener()
+Os elementos DOM além de possuirem métodos também possuem eventos. São eles que fazem a interatividades dos elementos no documento.
+
+
+##### DOMContentLoaded
+
+O código HTML é lido de cima para baixo. No header do HTML nós chamamos nosso arquivo de .js, e ele é lido e executado imediatamente, antes mesmo do HTML ser carregado.
+Para evitar isso, nós vamos sempre colocar nossos códigos js dentro da função abaixo:
+
+```js
+window.addEventListener('DOMContentLoaded', function() {
+  // aqui vai todo o código a ser executado na página
+});
+```
+
+Ela vai fazer com que o browser leia nosso arquivo .js mas espero o DOM terminar de carregar para executar os códigos que estão dentro do nosso arquivo.
+
+
+##### click
+
 ```html
 <div>
-  <input type="text" id="textInput" class="text-input" />
+  <button id="button" />
 </div>
 ```
 
 ```js
-let getInputId = document.querySelector('textInput');
-let getInputTag = document.querySelector('input');
-let getInputClass = document.querySelector('text-input');
+let getButtonId = document.querySelector('#button');
+
+getButtonId.addEventListener('click', function() {
+    // quando o botão for clicado esse código será executado
+  });
+```
+
+##### mouseover
+
+```html
+<div>
+  <button id="button" />
+</div>
+```
+
+```js
+let getButtonId = document.querySelector('#button');
+
+getButtonId.addEventListener('mouseover', function() {
+    // quando o mouse passar por cima do botão esse código será executado
+  });
+```
+
+##### change
+
+```html
+<select id="select">
+  <option value="option1">Opção 1</option>
+  <option value="option2">Opção 2</option>
+</select>
+```
+
+```js
+let getSelectId = document.querySelector('#select');
+
+getSelectId.addEventListener('change', function() {
+    // quando o element for modificado esse código será executado
+  });
 ```
 
 
@@ -392,6 +429,19 @@ console.log(getInputId)
 let getInputId = document.getElementById('textInput');
 alert(getInputId)
 ```
+
+#### Concatenação de variáveis
+
+```js
+let name = 'Patricia';
+console.log(`Meu nome é ${name}`);
+```
+
+```js
+let name = 'Patricia';
+console.log("Meu nome é " + name);
+```
+
 
 #### if/else if/else
 
@@ -464,42 +514,6 @@ sandwiches.forEach(function (sandwich, index) {
 	console.log(sandwich); // value
 });
 
-
-#### addEventListener()
-Os elementos DOM além de possuirem métodos também possuem eventos. São eles que fazem a interatividades dos elementos no documento.
-
-
-##### click
-
-```html
-<div>
-  <button id="button" />
-</div>
-```
-
-```js
-let getButtonId = document.getElementsById('button');
-
-getButtonId.addEventListener('click', function(event) {
-    // quando o botão for clicado esse código será executado
-  }, false);
-```
-
-##### mouseover
-
-```html
-<div>
-  <button id="button" />
-</div>
-```
-
-```js
-let getButtonId = document.getElementsById('button');
-
-getButtonId.addEventListener('mouseover', function(event) {
-    // quando o mouse passar por cima do botão esse código será executado
-  }, false);
-```
 
 
 #### Exercícios
