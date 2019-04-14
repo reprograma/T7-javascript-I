@@ -22,15 +22,16 @@
     - [DOM](#dom)
     - [getElementById()](#getelementbyid)
     - [querySelector()](#queryselector)
-    - [addEventListener()](#addeventlistenerclick)
+    - [addEventListener()](#addeventlistener)
+      - [DOMContentLoaded](#domcontentloaded)
       - [click](#click)
       - [mouseover](#mouseover)
       - [change](#change)
     - [innerHTML](#innerHTML)
-  * [if/else if/else](#ifelse-ifelse)
   * [console.log() e alert()](#consolelog-e-alert)
-  * [Concatenação de variáveis](#concatenacao-de-variáveis)
-  * [Exercícios](https://github.com/reprograma/T7-javascript-I/blob/master/Exercicios-primeira-aula/exercicios.md)
+  * [Concatenação de variáveis](#concatenação-de-variáveis)
+  * [if/else if/else](#ifelse-ifelse)
+  * [Exercícios](exercícios)
 
 ***
 
@@ -38,7 +39,7 @@
   * [Switch case](#switch-case)
   * [Funções](#funções)
   * [Arrays](#arrays)
-  * [Exercícios](https://github.com/reprograma/T7-javascript-I/blob/master/Exercicios-segunda-aula/exercicios.md)
+  * [Exercícios](#exercícios-1)
 
 ***
 
@@ -46,12 +47,12 @@
   * [Objetos](#objetos)
   * [Do while](#do-while)
   * [For](#for)
-  * [Exercícios](https://github.com/reprograma/T7-javascript-I/blob/master/Exercicios-terceira-aula/exercicios.md)
+  * [Exercícios](#exercícios-2)
 
 ***
 
-* [Quarta aula (18/04)](https://github.com/reprograma/T7-javascript-I/blob/master/Exercicios-quarta-aula/exercicio.md)
-  * [Projeto: Sessão da tarde](#exercícioprojeto)
+* [Quarta aula (18/04)](#quarta-aula---1804)
+  * [Projeto: Sessão da tarde](#exercícioprojeto-sessão-da-tarde)
 
 ***
 
@@ -337,18 +338,6 @@ let getInputId = document.getElementById('textInput');
 let getInputId = document.querySelector('#textInput');
 ```
 
-#### innerHTML
-
-```html
-  <div id="displayText"></div>
-```
-
-```js
-let displayText = document.querySelector('#displayText');
-displayText.innerHTML = "Texto que eu inseri no HTML."
-
-```
-
 
 #### addEventListener()
 Os elementos DOM além de possuirem métodos também possuem eventos. São eles que fazem a interatividades dos elementos no documento.
@@ -415,6 +404,18 @@ let getSelectId = document.querySelector('#select');
 getSelectId.addEventListener('change', function() {
     // quando o element for modificado esse código será executado
   });
+```
+
+#### innerHTML
+
+```html
+  <div id="displayText"></div>
+```
+
+```js
+let displayText = document.querySelector('#displayText');
+displayText.innerHTML = "Texto que eu inseri no HTML."
+
 ```
 
 
@@ -493,6 +494,52 @@ switch(expressão) {
 }
 ```
 
+#### Funções
+
+```js
+function nomeDaFuncao (parametros) {
+  // código que vai ser executado quando a função for chamada
+}
+
+nomeDaFuncao();
+```
+
+#### Arrays
+
+```js
+let sanduicheMortadela = "Mortadela";
+let sanduicheRosbife = "Rosbife";
+let sanduicheVegetariano = "Vegetariano";
+```
+
+```js
+let sanduiches = ["Mortadela", "Rosbife", "Vegetariano"];
+```
+
+```js
+sanduiches[0]; // retorna "Mortadela"
+```
+
+
+#### Exercícios
+
+https://github.com/reprograma/T7-javascript-I/blob/master/Exercicios-segunda-aula/exercicios.md
+
+***
+
+### Terceira aula - 17/04
+
+#### Objetos
+
+```js
+let sanduiche = {
+    nome: "Mortadela",
+    estilo: "carnivoro",
+    preco: "5",
+    disponibilidade: true
+};
+```
+
 #### Do while
 
 ```js
@@ -514,54 +561,6 @@ sandwiches.forEach(function (sandwich, index) {
 	console.log(sandwich); // value
 });
 
-
-
-#### Exercícios
-
-https://github.com/reprograma/T7-javascript-I/blob/master/Exercicios-segunda-aula/exercicios.md
-
-***
-
-### Terceira aula - 17/04
-
-#### Arrays
-
-```js
-let sanduicheMortadela = "Mortadela";
-let sanduicheRosbife = "Rosbife";
-let sanduicheVegetariano = "Vegetariano";
-```
-
-```js
-let sanduiches = ["Mortadela", "Rosbife", "Vegetariano"];
-```
-
-```js
-sanduiches[0]; // retorna "Mortadela"
-```
-
-
-#### Objetos
-
-```js
-let sanduiche = {
-    nome: "Mortadela",
-    estilo: "carnivoro",
-    preco: "5",
-    disponibilidade: true
-};
-```
-
-#### Funções
-
-```js
-function nomeDaFuncao (parametros) {
-  // código que vai ser executado quando a função for chamada
-}
-
-nomeDaFuncao();
-```
-
 #### Exercícios
 
 https://github.com/reprograma/T7-javascript-I/blob/master/Exercicios-terceira-aula/exercicios.md
@@ -570,6 +569,6 @@ https://github.com/reprograma/T7-javascript-I/blob/master/Exercicios-terceira-au
 
 ### Quarta aula - 18/04
 
-#### Exercício/projeto: Pedra, papel, tesoura, lagarto e spock
+#### Exercício/projeto: Sessão da tarde
 
 https://github.com/reprograma/T7-javascript-I/blob/master/Exercicios-quarta-aula/exercicio.md
