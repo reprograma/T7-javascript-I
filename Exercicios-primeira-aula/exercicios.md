@@ -1,4 +1,4 @@
-* Receba um número, verifique se ele é positivo, negativo ou zero e mostre o resultado na tela. Se o valor não for numérico, mostre um alerta na tela solicitando que o usuário digite um número.
+* Receba um número, verifique se ele é positivo, negativo ou zero e mostre o resultado na tela. Se o valor não for numérico OU o usuário não digitar nenhum valor, mostre um alerta na tela solicitando que o usuário digite um número.
 
 * Faça a soma de duas variáveis na tela. Primeiro verifique se os dois valores são números. Se forem números, faça a soma. Senão mostre um alerta avisando que os valores não são números.
 
