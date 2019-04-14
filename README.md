@@ -32,7 +32,7 @@
     - [innerHTML](#innerHTML)
   * [if/else if/else](#ifelse-ifelse)
   * [console.log() e alert()](#consolelog-e-alert)
-  * [Exercícios](#)
+  * [Exercícios](https://github.com/reprograma/T7-javascript-I/blob/master/Exercicios-primeira-aula/exercicios.md)
 
 ***
 
@@ -40,7 +40,7 @@
   * [Funções](#funções)
   * [Arrays](#arrays)
   * [Objetos](#objetos)
-  * [Exercícios](#exercícios-1)
+  * [Exercícios](https://github.com/reprograma/T7-javascript-I/blob/master/Exercicios-segunda-aula/exercicios.md)
 
 ***
 
@@ -48,12 +48,12 @@
   * [Switch case](#switch-case)
   * [Do while](#do-while)
   * [For](#for)
-  * [Exercícios](#exercícios-2)
+  * [Exercícios](https://github.com/reprograma/T7-javascript-I/blob/master/Exercicios-terceira-aula/exercicios.md)
 
 ***
 
-* [Quarta aula (18/04)](#quarta-aula---1804)
-  * [Projeto: Pedra, papel, tesoura, lagarto e spock](#exercícioprojeto)
+* [Quarta aula (18/04)](https://github.com/reprograma/T7-javascript-I/blob/master/Exercicios-quarta-aula/exercicio.md)
+  * [Projeto: Sessão da tarde](#exercícioprojeto)
 
 ***
 
@@ -70,6 +70,33 @@ Exemplo: Você faz o cadastro em um site, preenchendo um formulário com seu {no
 
 ![variavel](images/var-2.png)
 
+***
+
+Para declarar uma variável, podemos utilizar a palavra reservada `var`, seguida do nome da variável e o valor que estamos atribuindo a ela.
+
+```js
+var meuNome = 'Patricia';
+```
+
+Nas nossas aulas vamos utilizar duas palavras reservadas para declarar variáveis: `let` e `const`.
+
+`let` é a versão mais moderna de `var`. A sintaxe é mesma.
+
+```js
+let fruta = 'Pera';
+fruta = 'Abacaxi';
+```
+
+`const` é um novo jeito de declarar uma variável. A diferença é que ela é uma variável cujo valor, após ser declarado, não pode ser alterado.
+
+```js
+const meuNome = 'Patricia';
+meuNome = 'Maria';
+
+//A atribuição acima não é possível, e vai retornar um erro.
+```
+
+Referência: https://www.w3schools.com/js/js_es6.asp
 
 
 #### Comentários
@@ -121,25 +148,98 @@ Em JavaScript você pode fazer comentários de duas formas:
 - Maior ou igual que `>=`
 - Menor ou igual que `<=`
 - Operador ternário `?`
--
+
 
 #### Operadores lógicos
 - E `&&`
 - Ou `||`
 - Não/negação `!`
+-
 
 #### Data types
-- String
-- Number
-- Boolean
-- Function
-- Array
-- Object
-- Undefined
-- Null
+
+Tipos de dados (data types) são conceitos muito importantes em qualquer linguagem de programação.
+Para conseguirmos trabalhar com variáveis, precisamos saber com que tipo de dado estamos lidando.
+
+Existem alguns tipos de variáveis em Javascript:
+
+* String
+```js
+let nome = 'Patricia';
+```
+
+* Number
+```js
+let number = 10;
+```
+
+* Boolean
+```js
+let option = false;
+```
+
+* Function
+```js
+let varFunction = function() {
+  //código da função
+}
+```
+
+* Array
+```js
+let sanduiches = ['Presunto e queijo', 'Mortadela', 'Rosbife'];
+```
+
+* Object
+```js
+let sanduiche = {
+    nome: "Mortadela",
+    preco: "5",
+    disponibilidade: true
+};
+```
+
+* Undefined
+```js
+let nome;
+```
+
+* Empty
+```js
+let nome = "";
+```
+
+* Null
+ ```js
+let nome = null;
+```
+
+
+#### typeof
+
+`typeof` serve para descobrirmos o tipo de variável que estamos declarando ou recebendo. Importante lembrar que `typeof` retorna o tipo e não o valor da variável.
+
+```js
+typeof 0  //retorna number
+typeof 'Patricia'  //retorna string
+```
+
+#### isNaN()
+
+`isNaN()` é uma função nativa do Javascript que serve para descobrir se uma variável NÃO é um número. Função nativa é uma função que já está pronta para ser usada quando quisermos, ela já vem junto com a linguagem.
+
+```js
+isNaN(1) //retorna false, porque é um número
+```
+
+```js
+isNaN('patricia') //retorna true, porque não é um número
+```
 
 
 #### Palavras reservadas
+
+Existem algumas palavras que não podemos utilizar para declarar variáveis, pois elas fazem parte da linguagem javascript.
 
 ```js
 let let = 'nome da variável';
@@ -178,7 +278,7 @@ let primeiroNome = 'Patricia';
 ```
 
 ```
-**Importante:**
+Importante:
 Não utilizar hífen, nem espaços e nem caracteres especiais para separar nomes de variáveis.
 ```
 
@@ -211,7 +311,6 @@ DOM = Document Object Model
 O DOM é uma interface que representa como os documentos HTML e XML são lidos pelo seu browser. Após o browser ler seu documento HTML, ele cria um objeto que faz uma representação estruturada do seu documento e define meios de como essa estrutura pode ser acessada. Nós podemos acessar e manipular o DOM com JavaScript.
 
 ![variavel](images/dom.png)
-
 
 
 #### getElementById()
