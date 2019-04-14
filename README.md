@@ -1,6 +1,6 @@
 # Javascript I
 
-### O objetivo desse módulo é apresentar às alunas conceitos básicos de javascript, tais como variáveis, condicionais, loops, objetos e funções e manipulação do DOM.
+### O objetivo desse módulo é apresentar às alunas conceitos básicos de javascript, tais como variáveis, condicionais, loops, objetos, funções e manipulação do DOM.
 
 ![javascript](images/javascript.gif)
 
@@ -328,6 +328,8 @@ let getInputId = document.getElementById('textInput');
 
 #### querySelector()
 
+Esse método retorna qualquer elemento do DOM, como classes, tags e ID's. Você precisa deixar explicito se está chamando uma classe, um ID ou uma tag.
+
 ```html
 <div>
   <input type="text" id="textInput" class="text-input" />
@@ -336,8 +338,14 @@ let getInputId = document.getElementById('textInput');
 
 ```js
 let getInputId = document.querySelector('#textInput');
+let getInputClass = document.querySelector('.text-input');
+let getInputTag = document.querySelector('input');
 ```
 
+```
+Importante:
+Vamos utilizar sempre os seletores de ID. No HTML as classes vão ser utilizadas para estilizar o CSS, e o ID vai ser utilizado para manipular o DOM pelo Javascript.
+```
 
 #### addEventListener()
 Os elementos DOM além de possuirem métodos também possuem eventos. São eles que fazem a interatividades dos elementos no documento.
@@ -446,6 +454,10 @@ console.log("Meu nome é " + name);
 
 #### if/else if/else
 
+If/else if/else são condicionais que utilizamos para executar ou não um pedaço de código.
+Na vida real seria como tomar a decisão de atravessar ou não a rua. SE o sinal estiver VERDE, você atravessa. SENÃO (vermelho), você espera.
+
+
 ```js
 if (condição) {
   // se a condição for verdadeira, o código aqui dentro será executado
@@ -470,6 +482,9 @@ if (condição) {
 }
 ```
 
+O else if pode ser repetido quantas vezes for necessário.
+
+
 #### Exercícios
 
 https://github.com/reprograma/T7-javascript-I/blob/master/Exercicios-primeira-aula/exercicios.md
@@ -480,6 +495,9 @@ https://github.com/reprograma/T7-javascript-I/blob/master/Exercicios-primeira-au
 ### Segunda aula - 16/04
 
 #### Switch case
+
+O `switch case` funciona com o mesmo princípio do `if/else`, porém com uma sintaxe diferente.
+Ele é útil quando você tem que fazer várias comparações. O seu código vai ficar mais fácil de ler com ele.
 
 ```js
 switch(expressão) {
@@ -494,17 +512,50 @@ switch(expressão) {
 }
 ```
 
+```js
+let fruta = 'Banana';
+
+switch(fruta) {
+  case 'Pera':
+    alert('Não é a fruta que queremos');
+    break;
+  case 'Banana':
+    alert('É a fruta que queremos!');
+    break;
+  default:
+    alert('Não encontramos o que queriamos');
+}
+```
+
 #### Funções
+
+A função é útil para agrupar um pedaço de código, que pode ser reutilizado em outras partes do seu código.
+
+A função é declarada com a sintaxe abaixo, e o código dentro dela só é executado quando a função é chamada.
 
 ```js
 function nomeDaFuncao (parametros) {
   // código que vai ser executado quando a função for chamada
 }
 
-nomeDaFuncao();
+nomeDaFuncao(parametros); // chamada da função
+```
+
+##### Funções anônimas
+
+Funções anônimas são executadas imediatamente.
+
+```js
+(function () {
+  let x = "oie!";  // essa função vai ser executada imediatamente
+})();
 ```
 
 #### Arrays
+
+Array é um tipo de variável que engloba uma lista variáveis. Normalmente é utilizada para agrupar variáveis que tem relação entre si.
+
+Ao invés de declarar três variáveis diferentes, você pode declarar um array de variáveis:
 
 ```js
 let sanduicheMortadela = "Mortadela";
@@ -516,10 +567,16 @@ let sanduicheVegetariano = "Vegetariano";
 let sanduiches = ["Mortadela", "Rosbife", "Vegetariano"];
 ```
 
+E você pode acessar cada uma através da sua posição no array:
+
 ```js
-sanduiches[0]; // retorna "Mortadela"
+sanduiches[0]; // retorna a primeira posição do array "Mortadela"
 ```
 
+```
+Importante:
+Em javascript as posições sempre começam em 0.
+```
 
 #### Exercícios
 
@@ -534,10 +591,14 @@ https://github.com/reprograma/T7-javascript-I/blob/master/Exercicios-segunda-aul
 ```js
 let sanduiche = {
     nome: "Mortadela",
-    estilo: "carnivoro",
     preco: "5",
     disponibilidade: true
 };
+```
+
+```js
+sanduiche.nome // retorna Mortadela
+sanduiche.disponibilidade //retorna true, o que significa que ele está disponível no estoque
 ```
 
 #### Do while

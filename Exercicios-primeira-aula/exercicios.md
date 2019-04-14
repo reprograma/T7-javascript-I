@@ -17,6 +17,7 @@ A relação dos lugares/presentes é:
 
 * Brasil
   - Caxias do Sul: Um ovo de chocolate ao leite e um ovo de chocolate branco
+  - Porto Alegre: Um ovo de chocolate amargo e um ovo de chocolate ao leite
   - São Paulo: Duas caixas de bombons
 * Austrália: Dois ovos de chocolate branco
 * Estados Unidos: Dois ovos de chocolate ao leite
@@ -31,7 +32,8 @@ A relação dos lugares/presentes é:
 3. Javascript
 4. CSS
 
-5. Bônus: Adicionar imagens dos ovos/bombons
+5. Bônus: Mostrar o dropdown de cidade somente se o país selecionado for o Brasil
+6. Bônus: Adicionar imagens dos ovos/bombons
 
 ***
 
