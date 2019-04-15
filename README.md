@@ -548,6 +548,13 @@ function nomeDaFuncao (parametros) {
 nomeDaFuncao(parametros); // chamada da função
 ```
 
+```js
+function toCelsius(fahrenheit) {
+  return (5/9) * (fahrenheit - 32);
+}
+document.getElementById("result").innerHTML = toCelsius(77); // retorna 25
+```
+
 ##### Funções anônimas
 
 Funções anônimas são executadas imediatamente.
