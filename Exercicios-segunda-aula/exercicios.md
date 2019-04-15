@@ -1,5 +1,7 @@
 * Refazer o exercício dos números positivos/negativos utilizando switch case
 
+* Crie um array com no mínimo 5 nomes de cachorros (ou gatos, ou outro animal) e mostre na tela
+
 ***
 
 

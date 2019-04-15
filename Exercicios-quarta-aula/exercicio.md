@@ -13,7 +13,7 @@ Para ajudar naqueles momentos de indecisão vamos montar uma lista de filmes. Po
   - Categoria (gênero)
   - URL (Por exemplo: se for filmes, mostrar a url do IMDB, Rotten Tomatoes ou Filmow)
   - Imagem do filme
-- Mínimo 10, máximo 20 sugestões
+- Mínimo 5, máximo 20 sugestões
 
 * Bônus: Botão para o usuário poder mostrar a lista completa de filmes
 

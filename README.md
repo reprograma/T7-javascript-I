@@ -565,19 +565,32 @@ Array é um tipo de variável que engloba uma lista variáveis. Normalmente é u
 Ao invés de declarar três variáveis diferentes, você pode declarar um array de variáveis:
 
 ```js
-let sanduicheMortadela = "Mortadela";
+let sanduicheQueijo = "Queijo";
 let sanduicheRosbife = "Rosbife";
 let sanduicheVegetariano = "Vegetariano";
 ```
 
 ```js
-let sanduiches = ["Mortadela", "Rosbife", "Vegetariano"];
+let sanduiches = ["Queijo", "Rosbife", "Vegetariano"];
 ```
 
-E você pode acessar cada uma através da sua posição no array:
+Você pode acessar cada uma através da sua posição no array:
 
 ```js
-sanduiches[0]; // retorna a primeira posição do array "Mortadela"
+sanduiches[0]; // retorna a primeira posição do array "Queijo"
+```
+
+```js
+sanduiches.length; // retorna 3, a quantidade de variáveis dentro do array
+```
+
+```js
+sanduiches.forEach(function(item, index) {
+  console.log(item, index);
+  // Queijo 0
+  // Rosbife 1
+  // Vegetariano 2
+});
 ```
 
 ```
