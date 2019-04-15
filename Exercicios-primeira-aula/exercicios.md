@@ -4,8 +4,9 @@
 
 * Receba 3 números e mostre na tela qual deles é o maior. Primeiro verifique se os valores são números. Senão forem, mostre um alerta avisando que não são números.
 
-* Receba uma palavra e escreva ao contrário na tela. Se não for uma string, mostre uma mensagem na tela solicitando que o usuário digite uma palavra.
+* Escreva uma variável com o seu nome e então mostre na tela escrita ao contrário.
 
+* Escreva uma variável com a data e a hora atual e mostre na tela (Exemplo: Hoje é dia 15/04/2019, 10h30 AM)
 
 ***
 

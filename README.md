@@ -148,6 +148,13 @@ Em JavaScript você pode fazer comentários de duas formas:
 - Menor ou igual que `<=`
 - Operador ternário `?`
 
+``` js
+(condição) ? resultado verdadeiro : resultado falso
+
+let idade = 26;
+let bebida = (age >= 21) ? "Cerveja" : "Suco";
+console.log(bebida); // Cerveja
+```
 
 #### Operadores lógicos
 - E `&&`
