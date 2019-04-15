@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  background:
+  radial-gradient(circle closest-side at 60% 43%, #b03 26%, rgba(187,0,51,0) 27%),
+  radial-gradient(circle closest-side at 40% 43%, #b03 26%, rgba(187,0,51,0) 27%),
+  radial-gradient(circle closest-side at 40% 22%, #d35 45%, rgba(221,51,85,0) 46%),
+  radial-gradient(circle closest-side at 60% 22%, #d35 45%, rgba(221,51,85,0) 46%),
+  radial-gradient(circle closest-side at 50% 35%, #d35 30%, rgba(221,51,85,0) 31%),
+
+  radial-gradient(circle closest-side at 60% 43%, #b03 26%, rgba(187,0,51,0) 27%) 50px 50px,
+  radial-gradient(circle closest-side at 40% 43%, #b03 26%, rgba(187,0,51,0) 27%) 50px 50px,
+  radial-gradient(circle closest-side at 40% 22%, #d35 45%, rgba(221,51,85,0) 46%) 50px 50px,
+  radial-gradient(circle closest-side at 60% 22%, #d35 45%, rgba(221,51,85,0) 46%) 50px 50px,
+  radial-gradient(circle closest-side at 50% 35%, #d35 30%, rgba(221,51,85,0) 31%) 50px 50px;
+  background-color: #b03;
+  background-size: 100px 100px;
+  /* https://leaverou.github.io/css3patterns/#hearts */
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media (max-width: 1199px) {
+  .container {
+    width: 100%;
+  }
+}
+
+.card {
+  border-radius: 10px;
+  padding: 20px;
+  min-height: 400px;
+  margin-top: 40px;
+}
+
+@media (max-width: 1199px) {
+  .card {
+    min-height: auto;
+  }
+}
+
+.title {
+  text-shadow: 1px 1px 2px #000;
+  font-size: 50px;
+}
+
+@media (max-width: 1199px) {
+  .title {
+    font-size: 28px;
+    margin: 0;
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+.result {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+@media (max-width: 1199px) {
+  .result {
+    font-size: 18px;
+  }
+}
+
+fieldset {
+  border: 0 none;
+}
+
+label {
+  display: block;
+}
+
+select {
+  font-size: 16px;
+}
+
+@media (max-width: 1199px) {
+  select {
+    font-size: 14px;
+  }
+}

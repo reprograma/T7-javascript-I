@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <meta name="viewport" content="width=device-width">
+    <title>Entregas de Páscoa</title>
+  </head>
+  <body>
+    <div class="container card">
+      <h1 class="title">🐰 Presentes de Páscoa 🐇</h1>
+
+      <form>
+        <fieldset>
+          <label for="country">País</label>
+          <select id="country" name="country">
+            <option value="default" selected>Selecione um país</option>
+            <option value="aus">Austrália</option>
+            <option value="br">Brasil</option>
+            <option value="eua">Estados Unidos</option>
+            <option value="uk">Inglaterra</option>
+          </select>
+        </fieldset>
+
+        <fieldset class="hidden" id="cityFieldset">
+          <label for="city">Cidade</label>
+          <select id="city" name="city">
+            <option value="default" selected>Selecione uma cidade</option>
+            <option value="cxs">Caxias do Sul</option>
+            <option value="poa">Porto Alegre</option>
+            <option value="sp">São Paulo</option>
+          </select>
+        </fieldset>
+      </form>
+
+      <div id="result" class="result"></div>
+    </div>
+  </body>
+</html>
