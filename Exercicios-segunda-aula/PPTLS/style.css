@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f7f1f1;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.winner-box {
+  margin-top: 20px;
+}
+
+.player-box {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.player-box label {
+  margin-right: 20px;
+}
+
+.player-choice-box {
+  display: none;
+}
+
+.input {
+  min-width: 200px;
+  padding: 10px;
+}
+
+.btn {
+  border-radius: 0px 5px 5px 0px;
+  padding: 9px 20px 10px 20px;
+  font-size: 16px;
+  text-decoration: none;
+  color: #fff;
+  position: relative;
+  display: inline-block;
+  border: 0 none;
+  cursor: pointer;
+  background: #159a15;
+}
+
+small {
+  font-size: 60%;
+  display: block;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}

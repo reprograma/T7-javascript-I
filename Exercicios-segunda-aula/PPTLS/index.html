@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pedra, papel, tesoura, lagarto, spock</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" href="favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Pedra, papel, tesoura, lagarto, spock</h1>
+      <div id="playerBox" class="player-box">
+        <label for="player">Qual é o seu nome? <small>Assim o jogo fica mais legal!</small></label>
+        <input type="text" id="playerName" class="input">
+        <button type="button" id="getPlayerName" class="btn">OK</button>
+      </div>
+      <div id="playerChoiceBox" class="player-choice-box">
+        <label for="playerChoice">Pedra, papel, tesoura, lagarto ou spock?</label>
+        <input type="text" id="playerChoice" class="input">
+        <button type="button" id="getPlayerChoice" class="btn">OK</button>
+      </div>
+      <div id="winner" class="winner-box"></div>
+    </div>
+  </body>
+</html>
