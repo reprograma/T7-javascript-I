@@ -613,41 +613,6 @@ https://github.com/reprograma/T7-javascript-I/blob/master/Exercicios-segunda-aul
 
 ### Terceira aula - 17/04
 
-#### Objetos
-
-```js
-let sanduiche = {
-    nome: "Mortadela",
-    preco: "5",
-    disponibilidade: true
-};
-```
-
-```js
-sanduiche.nome // retorna Mortadela
-sanduiche.disponibilidade //retorna true, o que significa que ele está disponível no estoque
-```
-
-#### Do while
-
-```js
-while (condição) {
-  // enquanto a condição for verdadeira, o código aqui dentro será executado
-}
-```
-
-#### For
-https://gomakethings.com/looping-through-arrays-the-es6-way/
-
-for (var i = 0; i < sandwiches.length; i++) {
-	console.log(i); // index
-	console.log(sandwiches[i]); // value
-}
-
-sandwiches.forEach(function (sandwich, index) {
-	console.log(index); // index
-	console.log(sandwich); // value
-});
 
 #### Exercícios
 

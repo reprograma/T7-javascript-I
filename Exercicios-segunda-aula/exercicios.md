@@ -72,3 +72,5 @@ O {nome_vencedor} ganhou e {nome_perdedor} perdeu!
 
 Em caso de empate mostrar na tela: Empate! Jogue novamente
 ```
+
+Referência: https://ptonella.github.io/reprograma/PPTLS/

@@ -1,18 +1,16 @@
-### Calculadora dos boletos do mês
+### Qual é o nome do filme?
 
-Uma calculadora pra ajudar a sobrar salário no final do mês, e não mês no final do salário.
+Um jogo de adivinhação. Vão aparecer 3 imagens de filmes e você tem que dizer qual o nome de cada filme.
 
 ***
 
 #### O que deve ser feito?
 
-* Mostrar um campo para a entrada de salário do mês
-* Mosrar um campo para a saída de dinheiro do mês
-* Mostrar o valor total de entrada
-* Mostrar o valor total de saída
-* Mostrar o saldo do mês em azul se positivo, e vermelho se negativo. Se for 0, também mostrar em azul.
+* Mostrar três images/gifs de filmes em sequência
+* Ao final da exibição das imagens dos filmes, mostrar na tela os nomes dos filmes
 
+Sugestão: utilizar a função nativa setTimeout();
 
 ***
 
-Referência: https://ptonella.github.io/reprograma/boletos/
+Referência: https://ptonella.github.io/reprograma/qual-e-o-filme/
