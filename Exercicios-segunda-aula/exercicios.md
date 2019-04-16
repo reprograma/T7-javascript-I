@@ -52,8 +52,9 @@ O vencedor será decidido baseado nas combinações abaixo:
 3. Javascript do jogo
 4. CSS do jogo
 
-5. Bônus: Pedir para o jogador inserir o nome dele antes de começar e mostrar o nome dele no final do jogo
-6. Bônus: Adicionar as regras do jogo e referências na página.
+**Utilizar switch case**
+
+5. Bônus: Pedir para o jogador inserir o nome dele antes de começar e mostrar o nome dele junto com o resultado
 
 ***
 
@@ -65,10 +66,6 @@ O jogador escolhe uma das opções e o computador vai escolher uma opção aleat
 Apresentar resultado na tela:
 
 ```
-Ganhador = Jogador (escolha do ganhador)
-Perdedor = Jogador (escolha do perdedor)
-Resultado = Tesoura corta papel
-
 O {nome_vencedor} ganhou e {nome_perdedor} perdeu!
 {tesoura corta papel}
 
