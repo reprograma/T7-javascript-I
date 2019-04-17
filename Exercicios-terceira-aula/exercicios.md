@@ -9,7 +9,9 @@ Um jogo de adivinhação. Vão aparecer 3 imagens de filmes e você tem que dize
 * Mostrar três images/gifs de filmes em sequência
 * Ao final da exibição das imagens dos filmes, mostrar na tela os nomes dos filmes
 
-Sugestão: utilizar a função nativa setTimeout();
+* Tentar utilizar função
+
+- Sugestão: utilizar a função nativa setTimeout();
 
 ***
 
