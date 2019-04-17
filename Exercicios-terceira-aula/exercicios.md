@@ -1,17 +1,20 @@
-### Qual é o nome do filme?
+### Qual é o ${você escolhe}?
 
-Um jogo de adivinhação. Vão aparecer 3 imagens de filmes e você tem que dizer qual o nome de cada filme.
+Vamos criar um jogo de adivinhação.
+Vão aparecer três imagens em sequência do assunto que você escolheu e as outras pessoas tem que adivinhar o que é.
+
+O assunto pode ser filme, música, lugares, bandeiras, seriados, jogos de videogame, pinturas, cachorros, memes...
 
 ***
 
 #### O que deve ser feito?
 
-* Mostrar três images/gifs de filmes em sequência
-* Ao final da exibição das imagens dos filmes, mostrar na tela os nomes dos filmes
+* Mostrar três images/gifs do assunto que você escolheu em sequência
+* Ao final da exibição das imagens dos, mostrar na tela os nomes do que apareceram nas imagens
 
 * Tentar utilizar função
 
-- Sugestão: utilizar a função nativa setTimeout();
+- Dica/sugestão: utilizar a função nativa `setTimeout()`;
 
 ***
 
