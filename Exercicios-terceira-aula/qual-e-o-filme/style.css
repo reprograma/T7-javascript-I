@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  background: #2196f3;
+  color: #323232;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media (max-width: 1199px) {
+  .container {
+    width: 100%;
+    padding: 0 2%;
+  }
+}
+
+.btn {
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  text-decoration: none;
+  color: #fff;
+  position: relative;
+  display: inline-block;
+  border: 0 none;
+  cursor: pointer;
+  background-color: #f58613;
+  box-shadow: 0px 5px 0px 0px #ffce9c;
+}
+
+.btn:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 1px 0px 0px;
+}
+
+.btn-green:hover {
+  background-color: #c36808;
+}
+
+
+.display-movie-title {
+  margin-top: 40px;
+  font-size: 28px;
+  margin-bottom: -4px;
+  line-height: 50px;
+}
+
+.display-movie-poster {
+  margin-top: 40px;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0;
+}
+
+.title {
+  font-family: 'Fredoka One', sans-serif;
+  color: #fff;
+  font-size: 5vw;
+  margin: 20px 0 40px 0;
+  letter-spacing: 5px;
+  text-shadow: -1px -1px 0px #2196f3, 3px 3px 0px #2196f3, 6px 6px 0px #0d47a1;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 10vw;
+  }
+}

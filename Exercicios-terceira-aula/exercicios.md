@@ -10,7 +10,7 @@ O assunto pode ser filme, música, lugares, bandeiras, seriados, jogos de videog
 #### O que deve ser feito?
 
 * Mostrar três images/gifs do assunto que você escolheu em sequência
-* Ao final da exibição das imagens dos, mostrar na tela os nomes do que apareceram nas imagens
+* Ao final da exibição das imagens, mostrar na tela os nomes do que apareceram nas imagens
 
 * Tentar utilizar função
 
