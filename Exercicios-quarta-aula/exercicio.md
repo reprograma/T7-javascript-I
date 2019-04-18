@@ -29,5 +29,7 @@ https://www.buzzfeed.com/br/rafaelcapanema/de-quantas-comidas-polemicas-voce-gos
 
 https://www.buzzfeed.com/br/florapaul/sua-comida-no-quilo-de-acordo-com-seu-signo
 
+https://www.buzzfeed.com/br/skybrasil/voce-e-capaz-de-adivinhar-de-quem-sao-essas-frases-de-got
+
 
 Referência: https://ptonella.github.io/reprograma/buzz-feed/
