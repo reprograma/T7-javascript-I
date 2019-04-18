@@ -33,3 +33,21 @@ https://www.buzzfeed.com/br/skybrasil/voce-e-capaz-de-adivinhar-de-quem-sao-essa
 
 
 Referência: https://ptonella.github.io/reprograma/buzz-feed/
+
+
+***
+
+### Dog O'Clock
+
+Vamos criar um relógio que mostra a hora, minutos e segundos.
+
+
+#### O que deve ser feito?
+
+* Vamos criar um relógio que mostra a hora, minutos e segundos.
+* 
+* Se for de manhã (AM), vamos mostrar uma foto relacionada a algum assunto matutino
+* Se for de manhã (PM), vamos mostrar uma foto relacionada a algum assunto noturno
+
+
+Referência: https://ptonella.github.io/reprograma/dog-clock/
