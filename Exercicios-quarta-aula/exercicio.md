@@ -1,22 +1,33 @@
-### Sessão da tarde
+### Buzz feed quiz
 
-Sabe quando bate aquela vontade de ver um filme mas você não tem ideia do que assistir?
-Para ajudar naqueles momentos de indecisão vamos montar uma lista de filmes. Podemos acessar essa lista de duas formas: randomicamente ou lista completa.
+Vamos criar um teste estilo Buzz Feed. Precisa dizer mais?
 
 ***
 
 #### O que deve ser feito?
 
-* Sugestão randômica de uma lista de filmes (ou músicas, seriados, receitas, jogos de videogame, raças de gato/cachorro)
-* É necessário mostrar:
-  - Nome do filme
-  - Categoria (gênero)
-  - URL (Por exemplo: se for filmes, mostrar a url do IMDB, Rotten Tomatoes ou Filmow)
-  - Imagem do filme
-- Mínimo 5, máximo 20 sugestões
+* Reproduzir um dos testes do Buzz Feed, conforme referências abaixo.
 
-* Bônus: Botão para o usuário poder mostrar a lista completa de filmes
+* As regras para validação das respostas é do formulário das comidas é:
+
+Entre 0 e 4 questões marcadas: `Você marcou ${xquestoes} de 30 nessa lista. Polêmica não é com você. Você gosta do feijão com arroz. Quer dizer, você gosta de feijão com arroz? Ou acha polêmico?``
+
+
+Entre 5 e 9 questões marcadas: `Você marcou ${xquestoes} de 30 nessa lista. Até que você come bastante comida polêmica! Mas dá pra explorar mais coisas ainda, hein? Parabéns!`
+
+Entre 10 e 14 questões marcadas: `Você marcou ${xquestoes} de 30 nessa lista.Caramba, você come DE TUDO, parabéns! O pessoal pode te convidar pra jantar tranquilo: você nunca vai fazer desfeita.`
+
+Acima de 14: `Você marcou ${xquestoes} de 30 nessa lista. MITO!`
+
 
 ***
 
-Referência: https://ptonella.github.io/reprograma/sessao-da-tarde/
+Referências de testes:
+https://www.buzzfeed.com/br/davirocha/quanto-voce-manja-sobre-os-memes-brasileiros
+
+https://www.buzzfeed.com/br/rafaelcapanema/de-quantas-comidas-polemicas-voce-gosta
+
+https://www.buzzfeed.com/br/florapaul/sua-comida-no-quilo-de-acordo-com-seu-signo
+
+
+Referência: https://ptonella.github.io/reprograma/buzz-feed/
