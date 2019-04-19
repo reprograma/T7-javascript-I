@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+}
+
+body {
+  margin: 10px 0;
+  padding: 0;
+  background-color: #d87444;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: #323232;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+fieldset {
+  margin-bottom: 10px;
+  text-align: left;
+  border: 1px solid #c3c0c0;
+}
+
+.btn {
+  padding: 9px 20px 10px 20px;
+  font-size: 16px;
+  text-decoration: none;
+  color: #fff;
+  position: relative;
+  display: block;
+  border: 0 none;
+  cursor: pointer;
+  background: #159a15;
+  width: 100%;
+}
+
+small {
+  font-size: 60%;
+  display: block;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+.title {
+  margin-bottom: 40px;
+  margin-top: 5px;
+}
+
+a {
+  font-size: 12px;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.clock {
+  margin-bottom: 20px;
+  font-size: 60px;
+  color: #fff;
+}
